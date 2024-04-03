@@ -100,7 +100,7 @@ body {
 
 .hero {
     position: relative; /* Ensure positioning context for pseudo-element */
-    background-image: url('/Day1-RecipeBook/flovourfusion/images/image3.jpg');
+    background-image: url('images/image3.jpg');
     background-size: cover;
     background-position: center;
     color: #fff; /* Change text color to white for better contrast */
