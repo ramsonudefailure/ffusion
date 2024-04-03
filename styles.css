@@ -44,7 +44,7 @@ body {
     z-index: 100;
     padding: 10px 0; /* Added padding */
     box-shadow:  6px 6px 12px #81818103, -6px -6px 12px #99999935;
-    background-color: var(--bgcolor);
+    background: linear-gradient(to top, #2121213a, #1a1a1a75);
     transition: top 0.3s; /* Add smooth transition for top property */
 }
 
@@ -98,9 +98,10 @@ body {
 }
 
 
+
 .hero {
     position: relative; /* Ensure positioning context for pseudo-element */
-    background-image: url('ramsonudefailure/ffusion/images/image3.jpg');
+    background-image: url('https://i.ibb.co/K6F09m1/image3.jpg');
     background-size: cover;
     background-position: center;
     color: #fff; /* Change text color to white for better contrast */
@@ -163,7 +164,7 @@ body {
     transform: translate(-50%, -50%);
     width:500px; /* Adjust the width of the smoke */
     height: 200px; /* Adjust the height of the smoke */
-    background-image: url('/Day1-RecipeBook/flovourfusion/images/smoke.png'); /* Smoke image */
+    background-image: url('https://i.ibb.co/zhvF8vt/smoke.png'); /* Smoke image */
     background-size: cover;
     z-index: 0;
     animation: hot-smoke-move 10s ease-in-out infinite alternate, hot-smoke-blur 10s ease-in-out infinite alternate; /* Hot smoke animation */
